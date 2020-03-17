@@ -20,7 +20,8 @@ def kangaroo(x1, v1, x2, v2):
         return  steps(second, v2,first,v1)
     else:
         return 'NO'
-
+    
+#Function for main method
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
