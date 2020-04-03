@@ -12,6 +12,7 @@ def encryption(s):
     po = int(sqrt(leng))
     l = po if po*po == leng else po+1
     ss = ""
+    #checking the range for string and connecting in a group
     for i in range(0,l):
         ss+=s[i]
         for j in range(i+l,leng,l):
