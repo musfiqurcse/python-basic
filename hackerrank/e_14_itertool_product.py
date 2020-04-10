@@ -1,5 +1,5 @@
 from itertools import product
-
+# Product is a function to do cartesian product
 if __name__ ==  "__main__":
     k =  [int(i) for i in input().split()]
     l = [ int(i) for i in input().split()]
