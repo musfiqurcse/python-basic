@@ -14,7 +14,7 @@ def input_string(st):
             main_dicti[i] = 1
         else:
             main_dicti[i]+=1 
-    #  - sign used to descending order sort in lambda function
+    #  - sign used to descending order sort in lambda functions
     jj = sorted(main_dicti.items(), key=lambda x:(-x[1],x[0]))
     for k in range(0,3):
         print(jj[k][0],jj[k][1])
