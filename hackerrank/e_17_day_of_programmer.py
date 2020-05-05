@@ -13,6 +13,7 @@ def dayOfProgrammer(year):
     # Condition added for Georgian Calendar
     if year < 1918:
         return "12.09.{0}".format(year) if year%4==0 else "13.09.{0}".format(year)
+    # Except Georgian Calendar we should check the leap year
     return "12.09.{0}".format(year) if year%400 == 0 or (year%4==0 and year%100!=0) else "13.09.{0}".format(year)
 
 if __name__ == '__main__':
