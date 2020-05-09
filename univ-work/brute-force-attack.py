@@ -13,6 +13,7 @@ alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n
 import itertools
 # generat 3 letter pass
 keywo = [''.join(i) for i in itertools.product(alphabets, repeat = 3)]
+# for authKey in f: # This line is to read passkey from passlist.
 for authkey in keywo:
     # print(authkey.strip()
     print(authkey)
