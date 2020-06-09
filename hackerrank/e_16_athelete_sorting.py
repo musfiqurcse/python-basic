@@ -17,7 +17,7 @@ if __name__ == '__main__':
     m = int(nm[1])
 
     arr = []
-
+    # Sorting after adding the list 
     for _ in range(n):
         arr.append(list(map(int, input().rstrip().split())))
 
