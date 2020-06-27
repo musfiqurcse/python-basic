@@ -19,7 +19,7 @@ def nonDivisibleSubset(k, s):
     counts = [0] * k
     for number in s:
         counts[number % k] += 1
-
+    # divisible checking
     count = min(counts[0], 1)
     for i in range(1, k//2+1):
         if i != k - i:
