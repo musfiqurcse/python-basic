@@ -14,7 +14,7 @@ import sys
 #  1. INTEGER k
 #  2. INTEGER_ARRAY s
 #
-
+# try implementing the test
 def nonDivisibleSubset(k, s):
     counts = [0] * k
     for number in s:
