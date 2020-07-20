@@ -1,6 +1,3 @@
-
-
-
 def not_efficient_code(items, divisor):
     for item  in items:
         if item % divisor  == 0:
@@ -15,7 +12,3 @@ def efficient(items, divisor):
             return item
     items.append(divisor)
     return items
-
-
-
-
