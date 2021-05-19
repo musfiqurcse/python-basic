@@ -1,4 +1,7 @@
 class Node:
+    """
+    Node inside all the double linked Listd
+    """
     def __init__(self, value):
         self.next = None
         self.prev = None
