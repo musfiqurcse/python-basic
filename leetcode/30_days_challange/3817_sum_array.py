@@ -13,13 +13,10 @@ class Solution:
         for i, num in enumerate(arr):
             if num == 1:
                 if counter == 0:
-                    print(i)
                     c1 = i
                 elif counter == target:
-                    print(i)
                     c2 = i
                 elif counter == 2*target:
-                    print(i)
                     c3 = i
                 counter +=1
                 
